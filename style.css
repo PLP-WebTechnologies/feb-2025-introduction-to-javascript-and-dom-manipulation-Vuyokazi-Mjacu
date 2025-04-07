@@ -1,0 +1,38 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color:#D4E1C5;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #ECA7B0; 
+    color: BLACK;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #7DA8B6; 
+    color: BLACK; 
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #E98183; 
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    margin-top: 30px;
+    color: brown; 
+}
+

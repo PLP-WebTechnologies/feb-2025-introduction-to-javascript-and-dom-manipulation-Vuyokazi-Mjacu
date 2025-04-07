@@ -1,0 +1,57 @@
+
+<!-- Instructions
+Create a script.js file and link it to a HTML.
+Structure the document using DOCTYPE, html, head, and body.
+Note
+
+Write JavaScript that:
+Changes text content dynamically.
+Modifies CSS styles via JavaScript.
+Adds or removes an element when a button is clicked.
+Tasks
+Create a well-structured HTML5 document.
+Use at least 5 different HTML elements.
+Ensure semantic correctness. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Self-Introduction</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm Vuyokazi!</h1>
+        <p id="intro-text">Welcome to my self-introduction page. I am a passionate data analyst with a love for web development.</p>
+    </header>
+
+    <section>
+        <!-- Button to change text content -->
+        <button id="changeTextButton">Change Bio</button> 
+
+        <!-- Button to toggle background color -->
+        <button id="changeColorButton">Change Background Color</button>
+
+        <!-- Button to add a new section -->
+        <button id="addElementButton">Add My Hobbies</button>
+
+        <!-- Button to remove the added section -->
+        <button id="removeElementButton">Remove My Hobbies</button>
+
+        <!-- This section will be dynamically added and removed -->
+        <div id="hobbySection" class="hidden">
+            <p>I love crocheting and creating handmade clothing in my free time.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting my page!</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- External JavaScript file -->
+</body>
+</html>
+
+
